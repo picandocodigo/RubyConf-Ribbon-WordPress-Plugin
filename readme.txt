@@ -18,6 +18,10 @@ A simple WordPress plugin to add a RubyConf Uruguay ribbon to your blog. Visit h
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. The ribbon should now show up in your website :)
 
+== Screenshots ==
+
+1. The RubyConf Uruguay ribbon on my blog.
+
 == Changelog ==
 
 = 0.1 =
