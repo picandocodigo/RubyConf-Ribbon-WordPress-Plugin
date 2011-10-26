@@ -39,7 +39,7 @@ class RubyConfUy_Ribbon{
     $rcuy_img = plugins_url( 'img/rubyconfuy.png' , __FILE__ );
     $rubyconfuy_ribbon = '';
     $rubyconfuy_ribbon .= '<img id="rubyconfuy_ribbon"  src=' . $rcuy_img . ' alt="RubyConf Uruguay ' . date("Y") . '" ';
-    $rubyconfuy_ribbon .= ' usemap="#rcuymap"/></a>';
+    $rubyconfuy_ribbon .= ' usemap="#rcuymap"/>';
     $rubyconfuy_ribbon .= '<map name="rcuymap">';
     $rubyconfuy_ribbon .= '<area shape="polygon" coords="0,0,200,0,200,200" href="http://rubyconfuruguay.org" alt="RubyConf Uruguay ' . date("Y") . '"/>';
     $rubyconfuy_ribbon .= '</map>';
