@@ -3,12 +3,12 @@
 Plugin Name: RubyConf Uruguay Ribbon
 Plugin URI: http://rubyconfuruguay.org
 Description: A simple WordPress plugin to add a RubyConf Uruguay ribbon to your blog. Visit http://rubyconfuruguay.org/ to know more about Ruby Conf Uruguay.
-Version: 0.1
+Version: 0.2
 Author: Fernando Briano
 Author URI: http://picandocodigo.net/
 */
 
-/* Copyright 2011  Fernando Briano  (email : fernando@picandocodigo.net)
+/* Copyright 2011-2013  Fernando Briano  (email : fernando@picandocodigo.net)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -41,7 +41,7 @@ class RubyConfUy_Ribbon{
     $rubyconfuy_ribbon .= '<img id="rubyconfuy_ribbon"  src=' . $rcuy_img . ' alt="RubyConf Uruguay ' . date("Y") . '" ';
     $rubyconfuy_ribbon .= ' usemap="#rcuymap"/>';
     $rubyconfuy_ribbon .= '<map name="rcuymap">';
-    $rubyconfuy_ribbon .= '<area shape="polygon" coords="0,0,200,0,200,200" href="http://rubyconfuruguay.org" alt="RubyConf Uruguay ' . date("Y") . '"/>';
+    $rubyconfuy_ribbon .= '<area shape="polygon" coords="0,161,158,195,171,134,147,127,126,68,147,56,151,47,116,1,76,24,68,35,71,49,83,60,70,81,62,77,57,81,56,93,43,93,35,105,11,102," href="http://rubyconfuruguay.org" alt="RubyConf Uruguay ' . date("Y") . '"/>';
     $rubyconfuy_ribbon .= '</map>';
     echo $rubyconfuy_ribbon;
   }

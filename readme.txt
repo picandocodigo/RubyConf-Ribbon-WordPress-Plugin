@@ -1,10 +1,10 @@
 === RubyConf Uruguay Ribbon ===
-Contributors: fernandobt	
+Contributors: fernandobt
 Donate link: http://rubyconfuruguay.org
 Tags: rubyconf, ruby, uruguay, ribbon
 Requires at least: 3.0
-Tested up to: 3.2.1
-Stable tag: 0.1
+Tested up to: 3.5
+Stable tag: 0.2
 
 Add a RubyConf Uruguay ribbon to your blog.
 
@@ -24,5 +24,10 @@ A simple WordPress plugin to add a RubyConf Uruguay ribbon to your blog. Visit h
 
 == Changelog ==
 
+= 0.2 =
+
+ * Updated for RubyConf 2013
+
 = 0.1 =
-* Created plugin.
+
+ * Created plugin.
